@@ -21,7 +21,7 @@ def main():
     for y_n in y_1:
         for x_n in x_1:
             xy = y_n * x_n
-            print(f"{x_n} × {y_n} = {xy}", end=' | ')
+            print(f"{str(x_n).rjust(2)} × {str(y_n).rjust(1)} = {str(xy).rjust(2)}", end=' |')
         print()
 
 
